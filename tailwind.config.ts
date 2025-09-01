@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["Inter", "system-ui", "sans-serif"],
+        manrope: ["Manrope", "system-ui", "sans-serif"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -56,6 +60,15 @@ export default {
           "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
+        },
+        piko: {
+          red: "hsl(var(--piko-red))",
+          blue: "hsl(var(--piko-blue))",
+          green: "hsl(var(--piko-green))",
+          teal: "hsl(var(--piko-teal))",
+          "gray-dark": "hsl(var(--piko-gray-dark))",
+          "gray-light": "hsl(var(--piko-gray-light))",
+          bg: "hsl(var(--piko-bg))",
         },
       },
       borderRadius: {
